@@ -57,6 +57,7 @@ $ pod spec lint WKPrefixHeader.podspec
 ```
 $ git tag -d 0.0.1                   //删除本地tag
 $ git push origin :refs/tags/0.0.1  // 删除远程库tag
+$ git push origin master
 ```
 
 8.验证通过后，提交到CocoaPods或私有Specs。
