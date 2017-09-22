@@ -1,6 +1,8 @@
 # Prefix-Header
 Prefix Header for Objective-C project
 
+## 让开源项目支持CocoaPods
+
 1. cd到当前目录
 
 ```
@@ -67,3 +69,30 @@ $ pod repo push WKSpecs WKPrefixHeader.podspec   //提交到私有Specs
 $ pod trunk register 这里写邮箱 '这里起个名字' --description=' 这里写描述'
 ```
 执行完成之后，会给你的邮箱里发一封邮件，去邮箱点击链接之后，再重新执行第8步即可！
+
+## 创建私有Spec Repo
+
+先来说第一步，什么是Spec Repo？它是所有的Pods的一个索引，就是一个容器，所有公开的Pods都在这个里面。
+
+它实际是一个Git仓库remote端在GitHub上，但是当你使用了Cocoapods后它会被clone到本地的~/.cocoapods/repos目录下，可以进入到这个目录看到master文件夹就是这个官方的Spec Repo了。
+
+这个master目录的结构是这个样子的:
+
+```
+├── Specs
+    └── [SPEC_NAME]
+        └── [VERSION]
+            └── [SPEC_NAME].podspec
+```
+
+所以我们创建一个 Git仓库，这个仓库可以创建私有的也可以创建公开的，不过既然私有的Spec Repo，还是创建私有的仓库吧。
+
+需要注意的就是如果项目中有其他同事共同开发的话，你还要给他这个Git仓库的权限。
+
+创建完成之后在Terminal中执行如下命令
+```
+$ pod repo add [Private Repo Name] [GitHub HTTPS clone URL]
+```
+此时如果成功的话进入到~/.cocoapods/repos目录下就可以看到WTSpecs这个目录了。至此第一步创建私有Spec Repo完成。
+
+PS：如果有其他合作人员共同使用这个私有Spec Repo的话在他有对应Git仓库的权限的前提下执行相同的命令添加这个Spec Repo即可。
