@@ -13,7 +13,7 @@ $ cd WKPrefixHeader
 $ pod spec create WKPrefixHeader
 ```
 
-3.编辑 podspec文件，这里是用vim打开的，命令：
+3.编辑 podspec文件，命令：
 
 ```
 $ open WKPrefixHeader.podspec
