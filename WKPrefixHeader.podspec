@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "WKPrefixHeader"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "something about prefix header of WKPrefixHeader."
   # s.description  = <<-DESC
   #                  DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.requires_arc = true
   s.source       = { :git => "https://github.com/OComme/WK-Prefix-Header.git", :tag => "#{s.version}" }
-  s.source_files  = "./WKPrefixHeader/*"
+  s.source_files = "WKPrefixHeader/*"
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"

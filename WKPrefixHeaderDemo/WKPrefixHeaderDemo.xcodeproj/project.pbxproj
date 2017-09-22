@@ -28,6 +28,8 @@
 		84BC2F831F74D3DB00063E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84BC2F841F74D3DB00063E2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84BC2F8C1F74D47B00063E2D /* WKPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKPrefixHeader.pch; sourceTree = "<group>"; };
+		84BC2F8D1F74E2B500063E2D /* DefineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineHeader.h; sourceTree = "<group>"; };
+		84BC2F8E1F74E2C000063E2D /* ImportHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportHeader.h; sourceTree = "<group>"; };
 		DF88E458BED4E390D722F057 /* Pods-WKPrefixHeaderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKPrefixHeaderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKPrefixHeaderDemo/Pods-WKPrefixHeaderDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E203F4CCC3932DC2B4A69599 /* libPods-WKPrefixHeaderDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WKPrefixHeaderDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE8E8BDA60C34D302488B7B /* Pods-WKPrefixHeaderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKPrefixHeaderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WKPrefixHeaderDemo/Pods-WKPrefixHeaderDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				84BC2F8C1F74D47B00063E2D /* WKPrefixHeader.pch */,
+				84BC2F8D1F74E2B500063E2D /* DefineHeader.h */,
+				84BC2F8E1F74E2C000063E2D /* ImportHeader.h */,
 			);
 			name = WKPrefixHeader;
 			path = ../../WKPrefixHeader;
