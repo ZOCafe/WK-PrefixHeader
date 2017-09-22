@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'WKPrefixHeaderDemo' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for WKPrefixHeaderDemo
+  pod 'Masonry'                         #设置约束
+#  pod 'MJRefresh'                       #scrollview上下拉刷新
+#  pod 'AFNetworking'                    #网络请求
+#  pod 'SSKeychain'                      #钥匙串访问存储账户密码
+#  pod 'MBProgressHUD'                   #弹窗,过载
+#  pod 'UITableView+FDTemplateLayoutCell'#uitableviewcell获取cell高度
+#  pod 'YYKeyboardManager'               #键盘监听
+#  pod 'CLImageEditor'                  #图片编辑/仅做使用参考 基于CoreImage的封装
+#  pod 'TTRangeSlider'                   #自定义silder
+#  pod  'MagicalRecord'                  #coreData使用第三方
+#  pod  'ICarousel'                      #旋转木马效果
+end
