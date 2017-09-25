@@ -13,13 +13,13 @@ Pod::Spec.new do |s|
   # s.description  = <<-DESC
   #                  DESC
 
-  s.homepage     = "https://github.com/OComme/WK-Prefix-Header"
+  s.homepage     = "https://github.com/OComme/WK-PrefixHeader"
   s.license      = "MIT"
 
   s.author             = { "OComme" => "a163913692@icloud.com" }
   s.platform     = :ios, "8.0"
   s.requires_arc = true
-  s.source       = { :git => "https://github.com/OComme/WK-Prefix-Header.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/OComme/WK-PrefixHeader.git", :tag => "#{s.version}" }
   s.source_files = "WKPrefixHeader/*"
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
