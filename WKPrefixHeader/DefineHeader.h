@@ -9,7 +9,7 @@
 #ifndef DefineHeader_h
 #define DefineHeader_h
 
-
+#define H 300
 //屏幕宽
 #define CUSTOM_SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
 
