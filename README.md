@@ -94,6 +94,6 @@ $ pod trunk register 这里写邮箱 '这里起个名字' --description=' 这里
 ```
 $ pod repo add [Private Repo Name] [GitHub HTTPS clone URL]
 ```
-此时如果成功的话进入到~/.cocoapods/repos目录下就可以看到WTSpecs这个目录了。至此第一步创建私有Spec Repo完成。
+此时如果成功的话进入到~/.cocoapods/repos目录下就可以看到WKSpecs这个目录了。至此第一步创建私有Spec Repo完成。
 
 PS：如果有其他合作人员共同使用这个私有Spec Repo的话在他有对应Git仓库的权限的前提下执行相同的命令添加这个Spec Repo即可。
