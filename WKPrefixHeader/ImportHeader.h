@@ -8,6 +8,7 @@
 
 #ifndef ImportHeader_h
 #define ImportHeader_h
+#import "LoginViewController.h"
 
 
 #endif /* ImportHeader_h */
